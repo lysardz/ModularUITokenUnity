@@ -40,7 +40,7 @@ To use the material, place it on any UI image. You can then replace the characte
 The material is set up as follows:
 
 Textures:
-- Main texture (assignable in the image component, like “Char2” below, for items/characters/etc.) 
+- Main texture (assignable in the image component for items/characters/etc.) 
 - Inner Background Tex (Toggleable to be invisible)
 - Border Tex (Toggleable to be invisible)
 - Overlay Tex ( Toggleable to be invisible)
