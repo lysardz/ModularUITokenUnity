@@ -47,7 +47,7 @@ float4 TintLayer(float alpha, float3 highlight, float3 shadow, float power, floa
         
         layer.rgb *= alpha;
         //lerp greyscale to colour, and also adjust with power
-        layer.rgb *= pow(lerp(shadow, highlight, layer.r), power + 0.7);
+        layer.rgb *= pow(lerp(shadow, highlight, layer.r), power + 0.5);
         return layer;
     }
    

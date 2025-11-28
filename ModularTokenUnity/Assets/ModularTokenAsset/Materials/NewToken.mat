@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TokenExample1
+  m_Name: NewToken
   m_Shader: {fileID: -6465566751694194690, guid: f3ea2dd3c4626a44c87cd5e2e252deac, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Border_Tex:
-        m_Texture: {fileID: 2800000, guid: 62ed10c414e3f50408a13e87f79fc837, type: 3}
+        m_Texture: {fileID: 2800000, guid: ad59e59f861e4814995101dd21fa7367, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Inner_Background_Tex:
@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Overlay_Tex:
-        m_Texture: {fileID: 2800000, guid: 2f0473fef991cb847900e4c09d3b590c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 63e82d1351df2344c9a58527ff380c73, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_01c22aa8ff49461ea8cc0c62659d0afd_Texture_1_Texture2D:
@@ -83,31 +83,31 @@ Material:
     m_Floats:
     - _Border: 1
     - _Border_Enabled: 1
-    - _Border_Gradient_Balance: 1
-    - _Border_Gradient_Threshold: 1
+    - _Border_Gradient_Balance: 0.884
+    - _Border_Gradient_Threshold: 0.72
     - _ColorMask: 15
     - _Disable_Tint: 0
     - _EnableExternalAlpha: 0
     - _Glow: 1
     - _Glow_Edge: 1
-    - _Glow_Edge_Strenght: 0.623
+    - _Glow_Edge_Strenght: 0.346
     - _Glow_Enabled: 1
-    - _Glow_Intensity: 1.553
-    - _Glow_Noise_Threshold: 0.53
-    - _Glow_Size: 0.783
-    - _Glow_noise_Threshold: 0.733
+    - _Glow_Intensity: 1.414
+    - _Glow_Noise_Threshold: 0.05
+    - _Glow_Size: 0.858
+    - _Glow_noise_Threshold: 0.798
     - _Inner_Background: 1
     - _Inner_Background_Enabled: 1
-    - _Inner_Background_Gradient_Balance: 0.5
+    - _Inner_Background_Gradient_Balance: 0.668
     - _Inner_Background_Gradient_Threshold: 0.5
-    - _Noise: 1
-    - _Noise_Animation_Speed: 0.297
+    - _Noise: 0
+    - _Noise_Animation_Speed: 0.268
     - _Noise_Enabled: 1
-    - _Noise_Offset: 7.09
-    - _Noise_Scale: 0.381
+    - _Noise_Offset: 4.15
+    - _Noise_Scale: 0.319
     - _Overlay: 1
     - _Overlay_Enabled: 1
-    - _Overlay_Gradient_Balance: 0.687
+    - _Overlay_Gradient_Balance: 0.33
     - _Overlay_Gradient_Threshold: 0.701
     - _Stencil: 0
     - _StencilComp: 8
@@ -118,17 +118,17 @@ Material:
     - _UIMaskSoftnessY: 1
     - _ZWrite: 0
     m_Colors:
-    - _Border_Highlight: {r: 1, g: 0.87060463, b: 0.5990566, a: 1}
-    - _Border_Shadow: {r: 1, g: 0.5329949, b: 0, a: 1}
+    - _Border_Highlight: {r: 1, g: 0.7840819, b: 0.6933962, a: 1}
+    - _Border_Shadow: {r: 0.5754717, g: 0.21444464, b: 0.21444464, a: 1}
     - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Glow_Colour: {r: 1, g: 0.29794696, b: 0.2028302, a: 1}
-    - _Inner_Background_Colour: {r: 0.084905684, g: 0.075682774, b: 0.07249023, a: 1}
-    - _Inner_Background_Highlight: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
-    - _Inner_Background_Shadow: {r: 0.08490565, g: 0.08490565, b: 0.08490565, a: 1}
+    - _Glow_Colour: {r: 0.32781458, g: 0, b: 1, a: 1}
+    - _Inner_Background_Colour: {r: 0.122641504, g: 0.10330316, b: 0.09660911, a: 1}
+    - _Inner_Background_Highlight: {r: 0.2924528, g: 0.2924528, b: 0.2924528, a: 1}
+    - _Inner_Background_Shadow: {r: 0.103773594, g: 0.103773594, b: 0.103773594, a: 1}
     - _Inner_Background_Tint: {r: 0, g: 0, b: 0, a: 1}
-    - _Overlay_Highlight: {r: 0.845768, g: 1, b: 0, a: 1}
-    - _Overlay_Shadow: {r: 0.16077517, g: 0.6509434, b: 0, a: 1}
+    - _Overlay_Highlight: {r: 0.9009434, g: 0.97851187, b: 1, a: 1}
+    - _Overlay_Shadow: {r: 0.8527203, g: 0.8349056, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

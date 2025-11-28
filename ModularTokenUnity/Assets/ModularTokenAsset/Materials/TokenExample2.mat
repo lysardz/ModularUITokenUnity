@@ -83,7 +83,7 @@ Material:
     m_Floats:
     - _Border: 1
     - _Border_Enabled: 1
-    - _Border_Gradient_Balance: 0.5
+    - _Border_Gradient_Balance: 0.808
     - _Border_Gradient_Threshold: 0.72
     - _ColorMask: 15
     - _Disable_Tint: 0
@@ -98,7 +98,7 @@ Material:
     - _Glow_noise_Threshold: 0.798
     - _Inner_Background: 1
     - _Inner_Background_Enabled: 1
-    - _Inner_Background_Gradient_Balance: 0.5
+    - _Inner_Background_Gradient_Balance: 0.695
     - _Inner_Background_Gradient_Threshold: 0.5
     - _Noise: 0
     - _Noise_Animation_Speed: 0
@@ -107,7 +107,7 @@ Material:
     - _Noise_Scale: 0.451
     - _Overlay: 1
     - _Overlay_Enabled: 1
-    - _Overlay_Gradient_Balance: 0.5
+    - _Overlay_Gradient_Balance: 0.672
     - _Overlay_Gradient_Threshold: 0.701
     - _Stencil: 0
     - _StencilComp: 8

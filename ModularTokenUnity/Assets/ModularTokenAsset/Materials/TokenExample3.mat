@@ -83,7 +83,7 @@ Material:
     m_Floats:
     - _Border: 1
     - _Border_Enabled: 1
-    - _Border_Gradient_Balance: 0.5
+    - _Border_Gradient_Balance: 0.705
     - _Border_Gradient_Threshold: 0.72
     - _ColorMask: 15
     - _Disable_Tint: 0
@@ -107,7 +107,7 @@ Material:
     - _Noise_Scale: 0.356
     - _Overlay: 1
     - _Overlay_Enabled: 1
-    - _Overlay_Gradient_Balance: 0.271
+    - _Overlay_Gradient_Balance: 0.499
     - _Overlay_Gradient_Threshold: 0.701
     - _Stencil: 0
     - _StencilComp: 8
