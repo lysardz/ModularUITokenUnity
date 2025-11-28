@@ -6,6 +6,7 @@
 </picture>
 
 *See the Readme PDF file for images with explanation!*
+*Here is the setup video:* https://youtu.be/1IjRzdLGKEM
 
 This asset was made in Unity 6 ver 6000.1.2f for URP pipelines, but there is a package available for Unity 2021 too, tested in ver 2021.3.30f1
 You can download the files “ModularTokenUnity6” or “ModularTokenUnity2021” in this repo. 
@@ -15,20 +16,20 @@ This is a modular token material that I tried making so it is simple for artists
 You can use this to make tokens for characters or items, or for inventory slots - using whatever textures you make and being able to toggle layers.
 
 Additionally, this asset uses some default art I created - you can also use these textures if you want. NO AI art was used, this is custom made. 
-This project is free for personal and commercial use, however no redistribution, reselling, or claiming the work as your own. Please link back to this repository if sharing or showcasing the material.
+*This project is free for personal and commercial use*, however no redistribution, reselling, or claiming the work as your own. Please link back to this repository if sharing or showcasing the material.
 
-The material has the following function and customizability:
+# The material has the following function and customizability:
 - Allows you to assemble sprites to create a character, or other, token consisting of an icon sprite(Main texture slot), background, border, glow and a possible extra border overlay. 
 - Has a togglable glow behind the main texture, tweakable in softness, size, colour, noise, animation and other.
 - You can use coloured sprites if you want, or you can export your textures in greyscale, and tint them in the material. This setup has gradient tinting.
 
 You can also toggle which layers of the token are active, customizing it with your sprite needs. The toggleable layers include: 
-- Background behind main texture/border
-- Glow behind main texture
-- Border in front of main texture
-- An extra layer in front of the border for overlays or other objects.
+- *Background* behind main texture/border
+- *Glow* behind main texture
+- *Border* in front of main texture
+- An extra layer in front of the border for *overlay*s or other objects.
 
-Troubleshooting:
+**Troubleshooting:**
 - If any textures stretch unnaturally - please check that the sprite mode is set to single, and mesh type is set to full rect, in your texture import settings.
 - If you come across any other issues, please let me know.
 
@@ -37,9 +38,9 @@ In the project you will find a prefab folder with a UI image gameobject containi
 To use the material, place it on any UI image. You can then replace the character sprite by adding your sprite to the source image of the component.
 
 
-The material is set up as follows:
+# The material is set up as follows:
 
-Textures:
+### Textures:
 - Main texture (assignable in the image component for items/characters/etc.) 
 - Inner Background Tex (Toggleable to be invisible)
 - Border Tex (Toggleable to be invisible)
@@ -47,13 +48,13 @@ Textures:
 The UI textures you use should preferably all be at the same pixel resolution. The default textures used here are all at 512x512, with the art positioned inside. I have a psd file (TokenTemplate.psd) that contains the sprites so you can have an example file.
 
 
-Tinting Textures:
+### Tinting Textures:
 Toggle Disable Tint to switch off tinting for coloured textures. Your original sprites won’t be affected. Export your sprites in greyscale and switch off Disable Tint to apply colours.
 Border, background and overlay’s Highlights and Shadows can be separately coloured, blended together. 
 You can adjust the gradient balances to change the ratio of the tinting -  
 Border Gradient Balance/Overlay Gradient Balance/etc.
 
-Glow:
+### Glow:
 - Glow can be enabled or disabled.
 - Default glow is a circle behind the main texture.
 - Glow Colour applies a flat colour tint.
