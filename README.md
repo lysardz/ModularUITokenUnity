@@ -1,7 +1,7 @@
 # MODULAR TOKEN MATERIAL IN UNITY
 
 <picture>
-<img src="url" alt="Alt text">
+<img src="https://github.com/lysardz/ModularUITokenUnity/blob/main/Exampletoken.gif" alt="Alt text">
 
 </picture>
 
