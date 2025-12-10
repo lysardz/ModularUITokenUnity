@@ -1,7 +1,7 @@
 # MODULAR TOKEN MATERIAL IN UNITY
 
 <picture>
-<img src="Example.png" alt="hi" class="inline"/>
+<img src="url" alt="Alt text">
 
 </picture>
 
