@@ -29,7 +29,8 @@ You can also toggle which layers of the token are active, customizing it with yo
 - An extra layer in front of the border for *overlay*s or other objects.
 
 **Troubleshooting:**
-- If any textures stretch unnaturally - please check that the sprite mode is set to single, and mesh type is set to full rect, in your texture import settings.
+- If any textures stretch unnaturally - please try changing between "single" or "multiple" sprite mode in your texture import settings.
+- Set mesh type to full rect.
 - If you come across any other issues, please let me know.
 
 Project Setup:
