@@ -5,7 +5,6 @@
 
 </picture>
 
-*See the Readme PDF file for images with explanation!*
 *Here is the setup video:* https://youtu.be/1IjRzdLGKEM
 
 This asset was made in Unity 6 ver 6000.1.2f for URP pipelines, but there is a package available for Unity 2021 too, tested in ver 2021.3.30f1
@@ -39,6 +38,10 @@ To use the material, place it on any UI image. You can then replace the characte
 
 
 # The material is set up as follows:
+<picture>
+<img src="https://github.com/lysardz/ModularUITokenUnity/blob/main/Gifs/Layers.gif" alt="Layer toggles and selecting textures">
+
+</picture>
 
 ### Textures:
 - Main texture (assignable in the image component for items/characters/etc.) 
@@ -47,12 +50,19 @@ To use the material, place it on any UI image. You can then replace the characte
 - Overlay Tex ( Toggleable to be invisible)
 The UI textures you use should preferably all be at the same pixel resolution. The default textures used here are all at 512x512, with the art positioned inside. I have a psd file (TokenTemplate.psd) that contains the sprites so you can have an example file.
 
+<picture>
+<img src="https://github.com/lysardz/ModularUITokenUnity/blob/main/Gifs/Colour%20Textures.gif" alt="Tinting">
+</picture>
 
 ### Tinting Textures:
 Toggle Disable Tint to switch off tinting for coloured textures. Your original sprites won’t be affected. Export your sprites in greyscale and switch off Disable Tint to apply colours.
-Border, background and overlay’s Highlights and Shadows can be separately coloured, blended together. 
-You can adjust the gradient balances to change the ratio of the tinting -  
-Border Gradient Balance/Overlay Gradient Balance/etc.
+- Border, background and overlay’s Highlights and Shadows can be separately coloured. 
+- You can adjust the gradient balances to change the ratio of the tinting between highlight and shadows.
+- See above for example
+
+<picture>
+<img src="https://github.com/lysardz/ModularUITokenUnity/blob/main/Gifs/Glow%20Settings.gif" alt="Glow settings">
+</picture>
 
 ### Glow:
 - Glow can be enabled or disabled.
